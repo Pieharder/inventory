@@ -5,11 +5,11 @@ using System.Linq;
 
 namespace Inventory.Controllers
 {
-  public class AnimalsController : Controller
+  public class CollectionsController : Controller
   {
     private readonly InventoryContext _db;
 
-    public AnimalsController(InventoryContext db)
+    public CollectionsController(InventoryContext db)
     {
       _db = db;
     }
