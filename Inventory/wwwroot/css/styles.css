@@ -20,8 +20,12 @@ body {
   margin-top: 20%;
 }
 
-.actionlink {
+p.link a, li.link a {
   color: #111111;
+}
+
+p.link a:hover {
+  color: #f5f5f5;
 }
 
 .fake-button {
@@ -38,4 +42,12 @@ body {
 .fake-button:hover {
   background-color: #111111;
   color: #f5f5f5;
+}
+
+.fake-button:hover a {
+  color: #f5f5f5;
+}
+
+.btn {
+  border: 2px solid #111111;
 }

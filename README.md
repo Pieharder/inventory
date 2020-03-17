@@ -6,7 +6,7 @@
 
 ## Description
 
-_This application allows a user to track their inventory collections._
+_This application allows a user to track their inventory collections. The splash page includes a link to view all collections a user has added, and each collection is clickable to view details about the collection (type of collection and description)._
 
 ## Specifications:
 
