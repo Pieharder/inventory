@@ -16,10 +16,10 @@
 
   @foreach(Collection collection in Model)
   {
-    <li>@Html.ActionLink($"{collection.Type}", "Details", new { id = collection.CollectionId })</li>
+    <li class="link">@Html.ActionLink($"{collection.Type}", "Details", new { id = collection.CollectionId })</li>
   }
 
   <div class="fake-button">
-    <center><p>@Html.ActionLink("Add new collection", "Create")</p></center>
+    <center><p class="link">@Html.ActionLink("Add new collection", "Create")</p></center>
   </div>
 </div>
