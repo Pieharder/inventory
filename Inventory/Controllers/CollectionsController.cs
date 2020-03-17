@@ -36,8 +36,8 @@ namespace Inventory.Controllers
 
     public ActionResult Details(int id)
     {
-      Collection thisAnimal = _db.Collections.FirstOrDefault(collections => collections.AnimalId == id);
-      return View(thisAnimal);
+      Collection thisCollection = _db.Collections.FirstOrDefault(collections => collections.CollectionId == id);
+      return View(thisCollection);
     }
   }
 }
