@@ -4,10 +4,14 @@
 
 @model Inventory.Models.Collection;
 
-<h2>Collection Details</h2>
-<hr />
+<div class="card">
+  <h2>Collection Details</h2>
+  <hr />
 
-<h4>@Html.DisplayNameFor(model => model.Type): @Html.DisplayFor(model => model.Type)</h4>
-<h4>@Html.DisplayNameFor(model => model.Description): @Html.DisplayFor(model => model.Description)</h4>
+  <h4>@Html.DisplayNameFor(model => model.Type): @Html.DisplayFor(model => model.Type)</h4>
+  <h4>@Html.DisplayNameFor(model => model.Description): @Html.DisplayFor(model => model.Description)</h4>
 
-<p>@Html.ActionLink("Back to collections", "Index")</p>
+  <div class="fake-button">
+    <center><p>@Html.ActionLink("Back to collections", "Index")</p></center>
+  </div>
+</div>

@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-image: ("/img/legos.jpeg");
+  background-image: url("https://images.unsplash.com/photo-1560427450-00fa9481f01e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1278&q=80");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -11,6 +11,31 @@ body {
   max-width: 1200px;
 }
 
-.card {
+.jumbotron, .card {
   background-color: #f5f5f5b2;
+  padding: 10%;
+}
+
+.renderbody {
+  margin-top: 20%;
+}
+
+.actionlink {
+  color: #111111;
+}
+
+.fake-button {
+  margin-top: 2%;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid #111111;
+  color: #f5f5f5;
+  padding: 2px;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.fake-button:hover {
+  background-color: #111111;
+  color: #f5f5f5;
 }
